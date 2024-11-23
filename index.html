@@ -4,107 +4,202 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="googlebot" content="notranslate">
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Mangata and Gallo"/>
-        <meta property="og:description" content="Mangata and Gallo is a jewelry store that specializes in special occasions like engagements, weddings and anniversaries. The jewelry company primarily operates online and has a small storefront in Austin, Texas with an atelier attached for browsing. Mangata & Gallo's selection of jewelry is known for its high-quality and classic look. The owner, an Austin local, is well known for her jewelry designs.  " />
-        <!-- <meta property="og:image" content=""/> -->
-        <meta property="og:url" content="">
-        <meta property="og:site_name" content="Mangata and Gallo"/>
-        <meta property="og:locale" content="en_US">
-        <!-- <link rel="icon" href="" type=""> -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Mangata and Gallo"/>
+    <meta property="og:description" content="Mangata and Gallo is a jewelry store that specializes in special occasions like engagements, weddings and anniversaries. The jewelry company primarily operates online and has a small storefront in Austin, Texas with an atelier attached for browsing. Mangata & Gallo's selection of jewelry is known for its high-quality and classic look. The owner, an Austin local, is well known for her jewelry designs.  " />
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="Mangata and Gallo"/>
+    <meta property="og:locale" content="en_US">
     <title>Mangata and Gallo</title>
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
-    
-    <!-- Custom CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #D9D6CE; 
+        }
+        .navbar-nav .nav-link {
+            color: black !important;
+            background-color: #AA9077;
+            font-weight: bold;
+        }
+        
+        .navbar-toggler {
+            border: none;
+        }
+        .custom-logo {
+            width: 40px;
+        }
+        .navbar-collapse
+        {
+            text-align: center;
+        }
+        .navbar {
+            position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        background-color: #AA9077;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        }
+        .navbar-nav .nav-link {
+          margin-left: 20px;
+        }
+        /* .nav-link
+        {
+    
+            left: 80px;
+        } */
+        ul
+        {
+            background-color: #AA9077;
+          
+        }
+      
+        .navbar-toggler {
+        margin-left: auto; 
+    
+        
+        background-color: #AA9077; 
+        }
+        @media (min-width: 992px) {
+            .navbar {
+                height: 80px; 
+            }
+        }
+    </style>
 </head>
 <body>
-    
-    <div class="box">
-    <h1 id="title" style="margin-left: 50px; font-size: 70px;"> Mangata</h1>
-    <nav>
-        <div class="navbox">
-            <a href="#HOME"><button style="border-radius: 2em; font-size: xx-large;">Home</button></a>
-            <a href="#ABOUT"><button style="border-radius: 2em; font-size: xx-large;">About Us</button></a>
-            <a href="#Collection"><button style="border-radius: 2em; font-size: xx-large;">Collection</button></a>
-            <a href="#Contact"><button style="border-radius: 2em; font-size: xx-large;">Contact Us</button></a>
-
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="Asset 1@3x.png" alt="Logo" class="custom-logo" style="width: 200px; height: 80px;">
+            </a>
+            <!-- Hamburger Menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-end w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Luxury">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ABOUT">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Collection">Collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <main>
-        <div class="logo">
-            <img src="Asset 2@3x.png" alt="Mangata Logo" class="logo-image">
-            <h3 style="color: #A0978B; font-family: cursive;" id="Luxury"><br>Luxury Jewelry: Mangata and Gallo</h3>
-           
-        </div>
 
-        
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <img src="p1.png" alt="Main Jewelry Image" class="main-image">
-            <div class="text1">
-                <p style="color:  #A0978B;">Mangata and Gallo is a jewelry store that specializes in special occasions like engagements, weddings and anniversaries. The jewelry company primarily operates online and has a small storefront in Austin, Texas with an atelier attached for browsing. Mangata & Gallo's selection of jewelry is known for its high-quality and classic look.  </p>
-
-            </div>
-            <button class="shopnow">Shop Now</button>
-            <h2 style="font-size: 100px; font-family: cursive;" id="HOME">Home</h2>
-            <div class="flex1">
-                <img src="girl wear.jpg" width="320" height="350" style="border-radius: 10px; position: relative; left: 20px; top: 20px;">
-                <div class="text2"><p style="color:  #A0978B;">Elevate your style with our stunning collection of earrings, From elegant studs to dazzling dangly designs, each pair is crafted to perfection with premium materials like gold, silver, and diamonds. Whether you're dressing up for a special occasion or adding a touch of sparkle to your everyday look, our earrings are the perfect accessory to complete your outfit. Shine bright and make a statement—because you deserve the best.</p>
-                   <button style="background-color: #AA9077; border-radius: 20px; border-color: #AA9077; color: whitesmoke; border-style: none; width: 200px; height: 40px; font-family:cursive;">Buy Now</button>
-
-                </div>
-                <img src="p2.jpg" width="350" height="370">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                        <h3 style="color: #A0978B; font-family: cursive;" id="Luxury"><br>Luxury Jewelry: Mangata and Gallo</h3>
+                            <p style="color:  #A0978B;">Mangata and Gallo is a jewelry store that specializes in special occasions like engagements, weddings, and anniversaries. The jewelry company primarily operates online and has a small storefront in Austin, Texas, with an atelier attached for browsing. Mangata & Gallo's selection of jewelry is known for its high-quality and classic look, blending timeless elegance with contemporary designs. The store offers a curated collection of rings, necklaces, bracelets, and earrings, crafted with the finest materials and expert craftsmanship. Customers are invited to explore exclusive, one-of-a-kind pieces, each designed with a focus on personalization and artistry. The owner, a skilled designer and Austin local, draws inspiration from both modern trends and traditional techniques, ensuring every piece feels unique and special</p>
+                            <button class="shopnow">Shop Now</button>
                 
             </div>
-            
-            
+            <div class="col-lg-6 col-12">
+                <img src="p1.png" style="border-radius: 20px;" class="img-fluid" alt="Main Jewelry Image"  >
+                </div>
+        </div>
+        <div class="row">
+            <h2 style="font-size: 100px; font-family: cursive;" id="HOME">Home</h2>
+
+            <div class="col-md-4 col-12 ">   
+                <img src="girl wear.jpg" style="border-radius: 20px;" class="img-fluid" alt="Jewelry Image">
+            </div>
+            <div class="col-md-4 col-12 d-flex flex-column" >
+            <p  class ="t1">Elevate your style with our stunning collection of earrings. From elegant studs to dazzling dangly designs, each pair is crafted to perfection with premium materials like gold, silver, and diamonds. Whether you're dressing up for a special occasion or adding a touch of sparkle to your everyday look, our earrings are the perfect accessory to complete your outfit. Shine bright and make a statement—because you deserve the best. Our versatile designs cater to every mood and occasion, blending timeless elegance with contemporary flair. Meticulously designed to enhance your natural beauty.</p>
+            <button class="custom-button">Buy Now</button>
+        </div>
+        
+        <div class="col-md-4 col-12 d-flex flex-column">
+            <img src="p2.jpg"  style="border-radius: 20px;" class="img-fluid" alt="Main Jewelry Image "  id="p2">
+        </div> 
+    </div>
             <h2 style="font-size: 100px; font-family: cursive;" id="Collection">Our Collection</h2>
             <hr>
-            <div class="flex2">
-                   <img src="p4.jpg" width="340" height="360" class="p4">
-    
-                <div class="jewelry-container">
-                    <img src="p3.jpg" width="300";   alt="Jewelry Item" class="jewelry-image">
-                    <p class="jewelry-description" >
-                    Elegantly crafted, our rings symbolize timeless beauty and exceptional artistry for every occasion
-                    </p>
+            <div class="row ">
+                <div class="col-md-3 col-12 d-flex flex-column">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img class="img-fluid img-fixed" src="p4.jpg" alt="Product">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lustre Reverie Ensemble $699</h5>
+                            <p class="card-text">
+                                A luxurious collection of earrings, rings, necklaces, and bracelets, blending timeless elegance with modern designs. Perfect for elevating any look, crafted with premium gold, silver, and gemstones.                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="jewelry-container">
-                    <img src="p5.jpg" width="300";   alt="Jewelry Item" class="jewelry-image2" >
-                    <p class="jewelry-description" >
-                    Expertly designed, our minimalist ring embodies timeless charm and flawless elegance for any special occasion
-                    </p>
+                <div class="col-md-3 col-12 d-flex flex-column">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img class="img-fluid img-fixed" src="p3.jpg" alt="Product">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Infinity Loop Ring 250$</h5>
+                            <p class="card-text">
+                                Expertly crafted in sterling silver, this Infinity Loop Ring symbolizes eternal elegance and sophistication. Its seamless design makes it the perfect accessory for special moments or everyday refinement.                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="jewelry-container">
-                    <div class="ribbon">Best Seller</div>
-                    <img src="earring.jpg" width="250";   alt="Jewelry Item" class="jewelry-image3" > <!-- this is the best selling product-->
-                    <p class="jewelry-description3" >
-                        Intricately designed, our chandelier earrings showcase unparalleled beauty and refined artistry for every event
-                    </p>
+                <div class="col-md-3 col-12 d-flex flex-column">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img class="img-fluid img-fixed" src="p5.jpg" alt="Product">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Timeless Band Ring 150$</h5>
+                            <p class="card-text">
+                                The Timeless Band Ring is a symbol of simplicity and elegance. With its smooth, polished surface, this minimalist design provides a clean, modern look perfect for any occasion.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-md-3 col-12 d-flex flex-column">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img class="img-fluid img-fixed" src="braclet.jpg" alt="Product">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Diamond Elegance Bracelet 350$</h5>
+                            <p class="card-text">
+                                Radiating luxury, the Diamond Elegance Bracelet features dazzling diamonds set in a classic gold band. This piece adds timeless glamour and sophistication.</div>
                 </div>
-                <div class="divider"></div>
-
-                <h2 style="font-size: 100px; font-family: cursive;" id="ABOUT">About us</h2>
-                <hr class="secondhr">
-                <div class="text3"><p style="color:  #A0978B;">Mangata and Gallo was founded by Mariana, a skilled designer specializing in diamond cutting and metalsmithing. Starting as a small storefront in Austin, Texas, her passion for craftsmanship and timeless design quickly turned the brand into a growing success.
-
+                
+            </div>
+            <hr class="hr2">
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact container">
+                        <h2 style="font-size: 100px; font-family: cursive;" id="ABOUT">About us</h2>
+                    </div>
+                    <div class="hr-container">
+                        <hr class="hr3">
+                    </div>               
+                    <p style="color:  #A0978B; font-size: x-large; text-align: center;">Mangata and Gallo was founded by Mariana, a skilled designer specializing in diamond cutting and metalsmithing. Starting as a small storefront in Austin, Texas, her passion for craftsmanship and timeless design quickly turned the brand into a growing success
                     Mariana oversees everything from design to marketing, supported by a team of talented artisans and a dedicated employee managing the website and social media. Together, they create stunning, handcrafted jewelry meant to be cherished for a lifetime.
-                    
-                    Explore our collection and discover the art of fine jewelry with Mangata and Gallo</p>
+                    Explore our collection  and discover the art of fine jewelry with Mangata and Gallo</p>
                     <h2 style="font-size: 100px; font-family: cursive;"id="Contact">Find us</h2>
+                    <div class="iconbox-container">
                     <div class="iconbox">
                         <a href="https://www.facebook.com/share/jkKuL9wXQeXsxvdW/" target="_blank" class="icon-link">
                             <i class="fa-brands fa-meta fa-2xl"></i>
@@ -117,15 +212,21 @@
                         </a>
                         
                     </div>
-                    <p>&copy; 2024 Mangata and Gallo. All rights reserved.</p>
+                    </div>
+                    <div class="copy-container">
+                        <p style="justify-self: center; " class="copyright">&copy; 2024 Mangata and Gallo. All rights reserved.</p>
 
-                    <script src="https://kit.fontawesome.com/473c5494b9.js" crossorigin="anonymous"></script>
-        </main>
-    
-    <footer>
-    </footer>
-    </div>
+                    </div>
+                    </div>
+            </div>
+            
+       
 
-  
+
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/473c5494b9.js" crossorigin="anonymous"></script>
 </body>
 </html>
